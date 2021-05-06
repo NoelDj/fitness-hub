@@ -1,0 +1,577 @@
+/* <!--james............................................................................................-->*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --main-bg-color: #d91010cc;
+    --main-txt-color: white;
+    --sec-txt-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'montserrat', 'Comfortaa', cursive;
+
+    padding-bottom: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+    background: rgb(0,0,0,.9);
+
+}
+
+.logo {
+    width: 9vw;
+    margin-left: 2vw;
+}
+
+.initdes {
+    position: absolute;
+    left: 60%;
+}
+
+.initdes> h1,h2{
+    padding-bottom: 30px;
+}
+a#this.cta{
+    width: 50px;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.links a {
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--main-txt-color);
+}
+
+a:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+
+}
+
+
+main.home_page {
+    background-image: url(https://images.pexels.com/photos/2294354/pexels-photo-2294354.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    /* https://cdn.pixabay.com/photo/2015/04/08/23/53/workout-713658_1280.jpg */
+    background-size: cover;
+    background-position: center;
+    height: 89vh;
+    position: relative;
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+main {
+    color: var(--main-txt-color);
+}
+
+main h1 {
+    text-transform: uppercase;
+    color: var(--main-bg-color);
+}
+
+main a {
+    color: var(--main-bg-color);
+    border: 3px solid var(--main-txt-color);
+    text-decoration: none;
+    padding-bottom: 0px;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+}
+/* <!--james............................................................................................-->*/
+
+/* <!--noel............................................................................................-->*/
+
+.about {
+    min-height: 30vh;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    grid-gap: 2vw;
+    padding: 80px 10%;
+    color: white;
+}
+
+.column1 {
+    margin-left: 170px;
+
+
+
+}
+
+.image h1,
+p {
+    text-align: left;
+    color: white;
+    margin-top: 7px;
+
+}
+
+.exercise_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+    background: white;
+    padding: 0 5%;
+    margin-bottom: 100px;
+
+
+}
+.shortdescription{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.james{
+        box-shadow: 9px 9px 23px -1px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.grid-header {
+    grid-column: 1/-1;
+}
+
+.imageExe {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 10px;
+    background: white;
+    transition: 1s;
+    box-shadow: 9px 9px 23px -1px rgba(0, 0, 0, 0.19);
+}
+
+#middle {
+    background: #C52F3E;
+    color: white;
+}
+
+#middle exercise-text {
+    color: white;
+}
+
+.card:nth-child(2) .imgbox {
+    background: url(../img/Rectangle%203.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.card:nth-child(3) .imgbox {
+    background: url(../img/Rectangle%204.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* <!--noel............................................................................................-->*/
+
+/* <!--suman............................................................................................-->*/
+
+.exercisebody {
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    min-height: 300px;
+
+
+}
+
+.butt {
+    color: red;
+    background: white;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.share {
+    width: 2vw;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.share:hover {
+    transition: 1s;
+    transform: scale(1.03);
+}
+
+#more {
+    display: none;
+}
+
+.readmore a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.image {
+    width: 30vw;
+    background: url(https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg);
+    background-size: cover;
+        background-position: center;
+
+}
+
+
+main.sub-page {}
+
+.sub-vid {
+    min-height: 500px;
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+    background: url(../img/pexels-cottonbro-4761352.jpg);
+    background-size: cover;
+
+
+}
+
+.sub-des {
+    min-height: 200px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding: 0px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    column-gap: 30px;
+}
+
+.info-dif{
+
+    color: black;
+}
+
+.sub-des > h1,
+h3 {
+
+    grid-column: 1/-1;
+}
+.sub_p{
+    color: black;
+}
+
+
+.sub-info > ul {
+    text-decoration: none;
+    border-style: groove;
+    list-style-type: none;
+    width: 30vw;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+.sub-info >ul{
+
+    margin: 20px;
+
+}
+
+.sub-try {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 5% 10%;
+
+}
+
+.sub-try > div {
+    border: 2px solid black;
+    min-height: 200px;
+    width: 100%;
+}
+
+.sub-try > h2 {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+div.on:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    animation-direction: alternate-reverse;
+}
+
+
+
+.button-two {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 0 0 100px;
+}
+
+.button-two {
+    border-radius: 4px;
+    background-color: red;
+    border: 1px solid white;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    margin-left: 10vw;
+    margin-top: -83%;
+
+}
+
+
+
+.button-two span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-two span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-two:hover span {
+    padding-right: 25px;
+}
+
+.button-two:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+footer {
+    background-color: RED;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+ justify-content: space-between;
+}
+
+.ft-main {
+        width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-title {
+    color: #fff;
+    font-family: serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+.container {
+    flex: 1;
+    /* same as flex-grow: 1; */
+}
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+.ft-social-list {
+    color: red;
+    font-family: serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.1rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25 rem;
+}
+/* <!--suman............................................................................................-->*/
+/*
+* <!--nirajan............................................................................................-->*/*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+}
+
+
+
+
+
+.soc-item {
+    padding: 20px;
+}
+
+.links {}
+
+
+
+
+
+
+.exercise {
+
+    background: white;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 20px 10%;
+    margin: 80px 0;
+    gap: 30px;
+}
+
+.exercise-tex {
+    color: black;
+
+}
+
+.imgbox {
+    height: 150px;
+    background: black;
+    background: url(../img/Rectangle%202.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.textbox {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.read-more {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background: #C52F3E;
+    color: white;
+    border-radius: 10px;
+}
+
+.exerciselist {
+    background-color: white;
+    min-height: 200px;
+}
+
+.filter {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.filter > * {
+    padding-bottom: 30px;
+}
+
+.filter p {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.search {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.filter p {
+    padding-right: 40px;
+}
+
+.condition {
+    padding-bottom: 20px;
+}
+
+/* <!--nirajan............................................................................................-->*/
+
+
+.initdes a {
+    background: white;
+}

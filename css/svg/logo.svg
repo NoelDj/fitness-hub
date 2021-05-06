@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="644.4" height="368.17" viewBox="0 0 644.4 368.17">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: #fff;
+        stroke: #000;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 90.54px;
+        font-family: Verdana;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g>
+          <rect class="cls-1" x="197.89" y="87.51" width="246.28" height="54.09"/>
+          <g>
+            <rect class="cls-1" x="117.46" y="0.5" width="63.38" height="237.16" rx="12"/>
+            <rect class="cls-1" x="47.2" y="33.79" width="52.52" height="170.59" rx="12"/>
+            <rect class="cls-1" x="0.5" y="68.12" width="28.97" height="106.1" rx="12"/>
+          </g>
+          <g>
+            <rect class="cls-1" x="463.56" y="12.99" width="63.38" height="237.16" rx="12"/>
+            <polyline class="cls-1" points="468.47 112.85 468.47 112.85 468.47 112.85 468.47 112.85"/>
+            <polyline class="cls-1" points="509.21 112.85 509.21 112.85 509.21 112.85 509.21 112.85"/>
+            <rect class="cls-1" x="544.68" y="46.28" width="52.52" height="170.59" rx="12"/>
+            <rect class="cls-1" x="614.93" y="76.44" width="28.97" height="106.1" rx="12"/>
+          </g>
+          <g class="cls-2">
+            <text class="cls-3" transform="translate(63.93 340.21) scale(0.63 1)">THE FITNE</text>
+            <text class="cls-3" transform="translate(63.93 340.21) scale(0.63 1)">THE FITNE</text>
+            <text class="cls-4" transform="translate(366.45 340.21) scale(0.63 1)">S</text>
+            <text class="cls-4" transform="translate(366.45 340.21) scale(0.63 1)">S</text>
+            <text class="cls-3" transform="translate(404.54 340.21) scale(0.63 1)">S HUB</text>
+            <text class="cls-3" transform="translate(404.54 340.21) scale(0.63 1)">S HUB</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
